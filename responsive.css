@@ -1,0 +1,143 @@
+@media only screen and (max-width:768px){
+   
+    .carousel-item {
+       
+        height: 700px;
+        border: 1px solid black;
+      /* width: 400px; */
+     
+      } 
+     .carousel-item img{
+      height: 100vh;
+      object-fit: cover;
+     }
+      #carouselExampleIndicators .features{
+        position: absolute;
+        top: 60%;
+        left: 10%;
+       }
+      .features h3{
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+       }
+       .features h1{
+        color: white;
+        font-size: 2rem;
+       }
+       .features  button{
+        padding: 10px 30px;
+        color: white;
+        background-color: black;
+        border-radius: 10px;
+        border: none;
+        margin-top: 30px;
+        font-weight: bold;
+       }
+       .container .row .premium .premium-1{
+        margin-top: 10px;
+       }
+       .automative .row .automative-1 .auto{
+        border: 1px solid rgb(255, 255, 255);
+        padding: 20px;
+        color: white;
+        border-radius: 10px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.5)), url(assets/img/auto-img.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+     }
+     .automative .row .automative-1 .auto-1{
+      border: 1px solid rgb(255, 255, 255);
+     padding: 20px;
+     color: white;
+     border-radius: 10px;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.5)), url(https://w0.peakpx.com/wallpaper/194/313/HD-wallpaper-black-mercedes-amg-front-mercedes-benz-cars.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
+   .range-rover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.274),rgba(0, 0, 0, 0.5)),url(https://www.xtrafondos.com/en/descargar.php?id=1978&resolucion=1920x1200);
+    width: 100%;
+    height: 500px;
+    /* background-position: center; */
+    background-size: cover;
+   }
+   .range-rover h1{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20%;
+   }
+   .range-rover button{
+    position: absolute;
+    padding: 10px 10px;
+    color: white;
+    background-color: rgb(51, 75, 103);
+    border-radius: 10px;
+    border: none;
+    left: 35%;
+   }
+   .brand h1{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+   .all_brands-img{
+    width: 100%;
+   }
+   .all_brands-img .brands_img{
+    width: 100%;
+   }
+   .all_brands-img .brands_img .brands_images{
+    width: 100%;
+    height: 600px;
+    border: 1px solid black;
+   }
+   .brands_carousel .container .row .owl-carousel .item{
+    width: 100%;
+    height: 200px;
+     border: 1px solid black;
+   }
+  .bttn-view  .btnn{
+    padding: 10px 20px;
+    margin-left: 30%;
+   }
+
+   .destination-content .container .row .destination{
+    width: 100%;
+    height: 600px;
+    margin-top: 0px;
+    position: relative;
+   }
+   .destination-content .container .row .destination  h1{
+    position: absolute;
+    top: 60px;
+    left: 10%;
+    text-align: center;
+    color: #ffffff;
+    z-index: 999;
+   }
+   .destination-content .container .row .destination button{
+    position: absolute;
+    top: 280px;
+    left: 25%;
+    z-index: 999;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+   }
+   .services .container .row .services-content .mercedes-service{
+    width: 100%;
+    height: 400px;
+   }
+   .services .container .row .services-content .mercedes-service img{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    /* filter: contrast(30%) brightness(100%); */
+   }
+}
